@@ -4,8 +4,8 @@
 # found in the LICENSE file.
 if [ -f /sbin/frecon ]; then
     REQUIRES='xiwi'
-elif [ "${ARCH#arm}" != "$ARCH" ]; then
-    REQUIRES='xephyr'
+#elif [ "${ARCH#arm}" != "$ARCH" ]; then
+#    REQUIRES='xephyr'
 else
     REQUIRES='xorg'
 fi
